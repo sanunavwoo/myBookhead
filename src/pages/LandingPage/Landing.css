@@ -29,7 +29,10 @@ background-image: url("https://www.transparenttextures.com/patterns/blu-stripes.
     /* margin-left: 15rem; */
     position: relative;
     top:11rem;
-    left: 10rem;
+    /* left: 10rem; */
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
     text-align: left;
     width: fit-content;
 }
@@ -45,6 +48,7 @@ background-image: url("https://www.transparenttextures.com/patterns/blu-stripes.
     font-size: 3rem;
     color: rgb(37, 170, 163);
     position: relative;
+    text-align: center;
     /* top: 7rem; */
     /* left: -12rem; */
     margin:0;
@@ -61,7 +65,11 @@ background-image: url("https://www.transparenttextures.com/patterns/blu-stripes.
 .hero-text button{
     position:relative;
     top: 2rem;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
     height: 3rem;
+
     width: 10rem;
     background-color: rgba(26, 141, 135);
     border-radius: 1rem;
